@@ -1,0 +1,42 @@
+CHARACTERS = {
+	c:MCH ?= {
+		create_character = {
+			template = chi_daoguang_template
+		}
+
+		create_character = {
+			template = chi_xianfeng_template
+		}
+
+		create_character = {
+			# Keying, also known as Qiying and Kiyeng and Ch'i-ying
+			first_name = "Qiying"
+			last_name = "Aisin_Gioro"
+			historical = yes
+			birth_date = 1787.3.21
+			culture = cu:manchu
+			ig_leader = yes
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				reckless
+				expensive_tastes # INCREDIBLY corrupt
+				basic_diplomat
+			}
+		}
+
+		create_character = { # CHI, general, stationed someplace
+			is_general = yes
+			first_name = Yijing
+			last_name = Aisin_Gioro
+			culture = cu:manchu
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			birth_date = 1793.6.6 # exact date unknown
+			traits = {
+				basic_offensive_planner
+				expensive_tastes
+			}
+		}
+	}
+}

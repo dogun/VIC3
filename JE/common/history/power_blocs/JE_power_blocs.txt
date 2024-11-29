@@ -1,0 +1,68 @@
+POWER_BLOCS = {
+	c:MGL = {
+		create_power_bloc = {
+			name = IX_MONGOL_ULS
+
+			map_color = { 3 76 178 }
+
+			founding_date = 1206.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_2
+
+			member = c:XIN
+		}
+	}
+	c:AUS = {
+		create_power_bloc = {
+			name = HEILIGES_ROMISCHES_REICH
+
+			map_color = { 255 204 30 }
+
+			founding_date = 962.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+			member = c:PRU
+
+			member = c:LUB # After 1836, but member for gameplay balance reasons
+			member = c:BRA # After 1836, but member for gameplay balance reasons
+			member = c:SCM # After 1836, but member for gameplay balance reasons
+			member = c:MST # After 1836, but member for gameplay balance reasons
+			member = c:HES # 1834
+			member = c:BAV # 1834
+			member = c:WUR # 1834
+			member = c:BAD # 1835
+			member = c:SAX # 1834
+			member = c:HEK # 1834
+			member = c:MEC # 1826
+			member = c:NAS # 1835
+			member = c:WEI # 1834
+			member = c:SCW # 1834 
+			member = c:COB # 1834
+			member = c:MEI # 1834
+			member = c:ANH # 1821
+			member = c:WLD # 1834
+			member = c:LIP # Lippe-Detmold, 1834
+			member = c:FRM # Joins January 2nd, 1836, but I bet the negotiations were underway before then so let's just say they're in Jan. 1
+		}
+		add_principle = principle_defensive_cooperation_1
+	}
+	c:CHI = {
+		create_power_bloc = {
+			name = TIAN_CHAO_SHANG_GUO
+
+			map_color = { 254 205 33 }
+
+			founding_date = 1643.1.1
+			identity = identity_sovereign_empire
+			principle = principle_exploit_members_2
+
+			member = c:MCH
+			member = c:KOR
+			member = c:TIB
+			member = c:LAN
+			member = c:DAI
+		}
+	}
+
+}

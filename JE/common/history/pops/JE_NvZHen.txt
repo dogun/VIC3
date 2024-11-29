@@ -1,0 +1,71 @@
+POPS = {
+	s:STATE_SOUTHERN_MANCHURIA = {
+		region_state:MCH = {
+			create_pop = {
+				culture = manchu
+				size = 5210800
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 2511992
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 511992
+				religion = mahayana
+			}			
+			create_pop = {
+				culture = korean
+				size = 504000
+			}
+			create_pop = {
+				culture = mongol
+				size = 80412
+			}
+		}
+	}
+	s:STATE_NORTHERN_MANCHURIA = {
+		region_state:MCH = {
+			create_pop = {
+				culture = manchu
+				size = 2821200
+			}
+			create_pop = {
+				culture = siberian
+				size = 32000
+			}
+			create_pop = {
+				culture = mongol
+				size = 236404
+			}
+		}
+	}
+	s:STATE_OUTER_MANCHURIA = { #DONE
+		region_state:MCH = {
+			create_pop = {
+				culture = siberian
+				size = 67800
+			}
+			create_pop = {
+				culture = manchu
+				size = 8200
+			}
+		}
+	}
+	s:STATE_AMUR = { #DONE
+		region_state:MCH = {
+			create_pop = {
+				culture = siberian
+				size = 81123
+			}
+			create_pop = {
+				culture = manchu
+				size = 1040
+			}
+			create_pop = {
+				culture = russian
+				size = 450
+			}
+		}
+	}
+}

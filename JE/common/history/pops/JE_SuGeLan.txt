@@ -1,0 +1,32 @@
+POPS = {
+	s:STATE_HIGHLANDS = {
+		region_state:SCO = {
+			create_pop = {
+				culture = scottish
+				size = 672396
+			}
+			create_pop = {
+				culture = scottish
+				religion = catholic
+				size = 8000
+			}
+		}
+	}
+	s:STATE_LOWLANDS = {
+		region_state:SCO = {
+			create_pop = {
+				culture = scottish
+				size = 1397200
+			}
+			create_pop = {
+				culture = scottish
+				religion = catholic
+				size = 188000
+			}
+			create_pop = {
+				culture = irish
+				size = 52400
+			}
+		}
+	}
+}

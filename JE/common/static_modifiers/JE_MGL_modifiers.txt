@@ -1,0 +1,10 @@
+﻿JE_MGL_YvMaZHe = {	#为什么是全体攻防？因为没有单加骑兵攻防的代码
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	unit_army_offense_mult = 0.1
+	unit_army_defense_mult = 0.1
+}
+JE_MGL_QvanMinJieBing = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_conscription_rate_add = 0.1
+	building_training_rate_add = 10
+}

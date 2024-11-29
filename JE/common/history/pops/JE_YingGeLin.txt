@@ -1,0 +1,814 @@
+POPS = {
+	s:STATE_HOME_COUNTIES = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 2657596
+			}
+			create_pop = {
+				culture = british
+				religion = jewish
+				size = 20000
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 100000
+			}
+			create_pop = {
+				culture = irish
+				size = 28400
+			}
+		}
+	}
+	s:STATE_LANCASHIRE = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 1986404
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 85700
+			}
+			create_pop = {
+				culture = irish
+				size = 80700
+			}
+		}
+	}
+	s:STATE_WALES = {
+		region_state:ENG = {
+			create_pop = {
+				culture = welsh
+				size = 778557
+			}
+			create_pop = {
+				culture = british
+				size = 194639
+			}
+		}
+	}
+	s:STATE_YORKSHIRE = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 2026592
+			}
+			create_pop = {
+				culture = irish
+				size = 16000
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 48000
+			}
+		}
+	}
+	s:STATE_HIGHLANDS = {
+		region_state:ENG = {
+			create_pop = {
+				culture = scottish
+				size = 672396
+			}
+			create_pop = {
+				culture = scottish
+				religion = catholic
+				size = 8000
+			}
+		}
+	}
+	s:STATE_MIDLANDS = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 2543604
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 24400
+			}
+			create_pop = {
+				culture = irish
+				size = 12000
+			}
+		}
+	}
+	s:STATE_EAST_ANGLIA = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 1565208
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 8000
+			}
+		}
+	}
+	s:STATE_WEST_COUNTRY = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 1969600
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 12400
+			}
+			create_pop = {
+				culture = irish
+				size = 4400
+			}
+		}
+	}
+	s:STATE_LOWLANDS = {
+		region_state:ENG = {
+			create_pop = {
+				culture = scottish
+				size = 1397200
+			}
+			create_pop = {
+				culture = scottish
+				religion = catholic
+				size = 188000
+			}
+			create_pop = {
+				culture = irish
+				size = 52400
+			}
+		}
+	}
+	s:STATE_ULSTER = {
+		region_state:ENG = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1183122
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 407111
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 71843
+			}
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				size = 575084
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				religion = protestant
+				size = 101485
+			}
+		}
+	}
+	s:STATE_MUNSTER = {
+		region_state:ENG = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 2214388
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 71856
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 47904
+			}
+			create_pop = {
+				culture = british  # Presbyterians and Methodists
+				size = 10049
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				religion = protestant
+				size = 4040
+			}
+		}
+	}
+	s:STATE_LEINSTER = {
+		region_state:ENG = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1677581
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 160989
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 68994
+			}
+			create_pop = {
+				culture = british  # Presbyterians and Methodists
+				size = 14385
+			}
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				size = 4300
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				religion = protestant
+				size = 8007
+			}
+			create_pop = {
+				culture = british
+				religion = jewish
+				size = 237
+			}
+		}
+	}
+	s:STATE_CONNAUGHT = {
+		region_state:ENG = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1319428
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 28463
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 33413
+			}
+			create_pop = {
+				culture = british  # Presbyterians and Methodists
+				size = 4007
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				size = 5170
+			}
+		}
+	}
+	s:STATE_MALTA = {
+		region_state:ENG = {
+			create_pop = {
+				culture = maltese
+				size = 117192
+			}
+			create_pop = {
+				culture = british
+				size = 2792
+			}
+		}
+	}
+	s:STATE_GRANADA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 1218404
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				culture = spanish
+				size = 49024
+			}
+			create_pop = {
+				culture = british
+				size = 12336
+			}
+			create_pop = {
+				culture = sephardic
+				size = 3200
+			}
+		}
+	}
+	s:STATE_GAMBIA = {
+		region_state:POR = {
+			create_pop = {
+				culture = fulbe
+				size = 552304
+			}
+			create_pop = {
+				culture = mande
+				size = 127996
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				culture = mande
+				size = 91540
+			}
+			create_pop = {
+				culture = fulbe
+				size = 38000
+			}
+			create_pop = {
+				culture = wolof
+				size = 22860
+			}
+		}
+		region_state:SRR = {
+			create_pop = {
+				culture = mande
+				religion = animist
+				size = 80400
+			}
+			create_pop = {
+				culture = mande
+				religion = animist
+				size = 4000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mande
+				size = 8000
+			}
+		}
+		region_state:BND = {
+			create_pop = {
+				culture = mande
+				size = 96000
+			}
+			create_pop = {
+				culture = wolof
+				size = 64400
+			}
+			create_pop = {
+				culture = bambara
+				size = 34000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bambara
+				size = 10000
+			}
+		}
+		region_state:KBU = {
+			create_pop = {
+				culture = mande
+				religion = animist
+				size = 204000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mande
+				religion = animist
+				size = 20000
+			}
+		}
+	}
+	s:STATE_GHANA = {
+		region_state:ENG = {
+			create_pop = {
+				culture = akan
+				size = 40204
+			}
+			create_pop = {
+				culture = mossi
+				size = 4844
+			}
+			create_pop = {
+				culture = ewe
+				size = 6984
+			}
+		}
+		region_state:NET = {
+			create_pop = {
+				culture = akan
+				size = 45572
+			}
+			create_pop = {
+				culture = mossi
+				size = 4220
+			}
+		}
+		region_state:ASH = {
+			create_pop = {
+				culture = akan
+				size = 436308
+			}
+			create_pop = {
+				culture = mossi
+				size = 43996
+			}
+			create_pop = {
+				culture = ewe
+				size = 88996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = ewe
+				size = 15000
+			}
+		}
+	}
+	s:STATE_NEWFOUNDLAND = {
+		region_state:ENG = {
+			create_pop = {
+				culture = inuit
+				size = 7980
+			}
+			create_pop = {
+				culture = irish
+				size = 40000
+			}
+			create_pop = {
+				culture = anglo_canadian
+				size = 39996
+			}
+		}
+	}
+	s:STATE_BERMUDA = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 14848
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 12352
+			}
+		}
+	}
+	s:STATE_GUATEMALA = {
+		region_state:UCA = {
+			create_pop = {
+				culture = central_american
+				size = 164404
+			}
+			create_pop = {
+				culture = mayan
+				size = 312000
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				culture = afro_caribbean
+				size = 7104
+			}
+			create_pop = {
+				culture = british
+				size = 104
+			}
+		}
+	}
+	s:STATE_BAHAMAS = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 19200
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 100400
+			}
+		}
+	}
+	s:STATE_WEST_INDIES = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 22200
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 216104
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = danish
+				size = 3992
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 39996
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 34704
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 234768
+			}
+			create_pop = {
+				culture = dutch
+				size = 396
+			}
+		}
+	}
+	s:STATE_JAMAICA = {
+		region_state:ENG = {
+			create_pop = {
+				culture = afro_caribbean
+				size = 358596
+			}
+			create_pop = {
+				culture = british
+				size = 23040
+			}
+		}
+	}
+	s:STATE_GUAYANA = {
+		region_state:NET = {
+			create_pop = {
+				culture = afro_caribbean
+				religion = animist
+				size = 36000
+			}
+			create_pop = {
+				culture = dutch
+				size = 632
+			}
+			create_pop = {
+				culture = amazonian
+				size = 7796
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 12000
+			}
+		}
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 1592
+			}
+			create_pop = {
+				culture = amazonian
+				size = 4000
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 14400
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				culture = afro_caribbean
+				size = 92000
+			}
+			create_pop = {
+				culture = british
+				size = 3588
+			}
+			create_pop = {
+				culture = amazonian
+				size = 8000
+			}
+		}
+	}
+	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
+		region_state:ENG = {
+			create_pop = {
+				culture = british
+				size = 14540
+			}
+		}
+	}
+	s:STATE_CEYLON = {
+		region_state:BCE = {
+			create_pop = {
+				culture = sinhala
+				size = 849208
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				size =700
+			}
+			create_pop = {
+				culture = tamil
+				size = 194000
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 32000
+			}
+			create_pop = {
+				culture = sinhala
+				religion = sunni
+				size = 24000
+			}
+			create_pop = {
+				culture = malay
+				size = 16400
+			}
+			create_pop = {
+				culture = british
+				size = 7992
+			}
+			create_pop = {
+				culture = sinhala
+				size =36200
+			}
+			create_pop = {
+				culture = sinhala
+				religion = protestant
+				size = 12000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = tamil
+				size = 21000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sinhala
+				size = 6400
+			}
+		}
+		region_state:MLD = {
+			create_pop = {
+				culture = sinhala
+				religion = sunni
+				size = 53020
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 671
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 2301
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				pop_type = aristocrats
+				culture = french
+				size = 36
+			}
+			create_pop = {
+				pop_type = aristocrats
+				culture = british
+				size = 12
+			}
+			create_pop = {
+				culture = tamil
+				pop_type = laborers
+				size = 49
+			}
+			create_pop = {
+				culture = swahili
+				pop_type = laborers
+				size = 46
+			}
+			create_pop = {
+				culture = afro_antillean
+				religion = catholic
+				size = 801
+			}
+		}
+	}
+	s:STATE_INDIAN_OCEAN_TERRITORY = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 29992
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 68000
+			}
+			create_pop = {
+				culture = swahili
+				size = 2000
+			}
+			create_pop = {
+				culture = afro_antillean
+				religion = animist
+				size = 6000
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				culture = french
+				size = 2088
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 94612
+			}
+			create_pop = {
+				culture = british
+				size = 800
+			}
+			create_pop = {
+				culture = afro_caribbean
+				size = 5900
+			}
+		}
+	}
+	s:STATE_MALAYA = {
+		region_state:JOH = {
+			create_pop = {
+				culture = malay
+				size = 399600
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malay
+				size = 11000
+			}
+			create_pop = {
+				culture = yue
+				size = 27404
+			}
+		}
+		region_state:SEL = {
+			create_pop = {
+				culture = malay
+				size = 209000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malay
+				size = 7000
+			}
+			create_pop = {
+				culture = yue
+				size = 22000
+			}
+		}
+		region_state:PRK = {
+			create_pop = {
+				culture = malay
+				size = 136000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malay
+				size = 2000
+			}
+			create_pop = {
+				culture = yue
+				size = 9000
+			}
+		}
+		region_state:SIA = {
+			create_pop = {
+				culture = malay
+				size = 248000
+			}
+			create_pop = {
+				culture = yue
+				size = 12800
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = yue
+				size = 4000
+			}
+		}
+		region_state:BIC = {
+			create_pop = {
+				culture = malay
+				size = 60000
+			}
+			create_pop = {
+				culture = tamil
+				size = 2400
+			}
+			create_pop = {
+				culture = yue
+				size = 4000
+			}
+			create_pop = {
+				culture = british
+				size = 600
+			}
+		}
+		region_state:ENG = {
+			create_pop = {
+				culture = malay
+				size = 40000
+			}
+			create_pop = {
+				culture = tamil
+				size = 2000
+			}
+			create_pop = {
+				culture = yue
+				size = 13996
+			}
+			create_pop = {
+				culture = british
+				size = 2196
+			}
+		}
+	}
+}

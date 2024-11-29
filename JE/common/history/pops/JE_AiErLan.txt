@@ -1,0 +1,53 @@
+POPS = {
+	s:STATE_ULSTER = {
+		region_state:IRE = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1183122
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 407111
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 71843
+			}
+			create_pop = {
+				culture = scottish  # Presbyterians and Methodists
+				size = 575084
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				religion = protestant
+				size = 101485
+			}
+		}
+	}
+	s:STATE_CONNAUGHT = {
+		region_state:IRE = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1319428
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 28463
+			}
+			create_pop = {
+				culture = irish # Anglicans
+				religion = protestant
+				size = 33413
+			}
+			create_pop = {
+				culture = british  # Presbyterians and Methodists
+				size = 4007
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				size = 5170
+			}
+		}
+	}
+}
